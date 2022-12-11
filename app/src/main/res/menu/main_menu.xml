@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Liste des livres" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="Ajouter un livre" />
+        <item
+            android:id="@+id/modifier"
+            android:icon="@drawable/ic_baseline_update_24"
+            android:title="modifier un livre" />
+        <item
+            android:id="@+id/delete_all"
+            android:icon="@drawable/ic_baseline_delete_24"
+            android:title="Supprimer tous les livres" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/na_share"
+                        android:icon="@drawable/ic_baseline_share_24"
+                        android:title="Share" />
+                    <item
+                        android:id="@+id/nav_donate"
+                        android:icon="@drawable/ic_baseline_home_repair_service_24"
+                        android:title="donate" />
+                </group>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Authentificarion">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/ic_baseline_logout_24"
+                        android:title="terminer" />
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
